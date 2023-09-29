@@ -1,0 +1,31 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+img, picture, video, svg, canvas{
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  overflow-wrap: break-word;
+}
+
+body{
+  user-select: none;
+  font-family:  sans-serif;
+  background-color: hsl(0 0% 0% / 0.085);
+}
+
+:root{
+  --orange: hsl(30.28, 92.31%, 54.12%);
+}
